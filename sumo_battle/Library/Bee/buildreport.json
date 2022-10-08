@@ -1,0 +1,22 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 460519286240,"dur": 7694217.6, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 460519305326.3,"dur": 167608.9, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 460524435853.5,"dur": 726, "ph":"X", "name": "Prepare For Build"},
+{ "pid": "Unity", "tid": 1,"ts": 460524436590,"dur": 2478944, "ph":"X", "name": "ProducePlayerScriptAssemblies"},
+{ "pid": "Unity", "tid": 1,"ts": 460526902789.3,"dur": 12592, "ph":"X", "name": "Prebuild Cleanup and Recompile"},
+{}
+
+],
+"meta_datetime": "10/08/2022 03:35:04",
+"meta_command_line": "\"D:\\Program Files (x86)\\2021.3.9f1\\Editor\\Unity.exe\" -createproject \"D:\\philskay\\Unity game\\Sumo-battle\\sumo_battle\" -cloneFromTemplate \"D:\\Program Files (x86)\\2021.3.9f1\\Editor\\Data\\Resources\\PackageManager\\ProjectTemplates\\com.unity.template.3d-8.1.0.tgz\" -cloudOrganization  -cloudEnvironment production -useHub -hubIPC -hubSessionId ffb87ba0-42a9-11ed-841b-89476f9829bf -accessToken Di5njnOv9ICCCPow3wNHL1CACfUwxqIP_2Rsb_eA8-M00af",
+"meta_command_line_args": "D:\\Program Files (x86)\\2021.3.9f1\\Editor\\Unity.exe -createproject D:\\philskay\\Unity game\\Sumo-battle\\sumo_battle -cloneFromTemplate D:\\Program Files (x86)\\2021.3.9f1\\Editor\\Data\\Resources\\PackageManager\\ProjectTemplates\\com.unity.template.3d-8.1.0.tgz -cloudOrganization  -cloudEnvironment production -useHub -hubIPC -hubSessionId ffb87ba0-42a9-11ed-841b-89476f9829bf -accessToken Di5njnOv9ICCCPow3wNHL1CACfUwxqIP_2Rsb_eA8-M00af",
+"meta_user_name": "TOBI-K",
+"meta_os_version": "Microsoft Windows NT 10.0.22000.0",
+"meta_cpu_count": "12"
+}
